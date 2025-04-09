@@ -18,6 +18,9 @@ export interface DigimonData {
   type: string
   author: string
   images: string[]
+  style?: string
+  source?: string
+  size?: string
 }
 
 // Update the DigimonContextType interface to include enums
@@ -26,7 +29,7 @@ interface DigimonContextType {
   loading: boolean
   error: string | null
   formats: string[][] | null
-  vpetFormats: { dmc: string[]; penc: string[]; penc_to_dmc: string[] } | null
+  vpetFormats: { dmc: string[]; penc: string[]; penc_to_dmc: string[]; dmc_to_penc: string[] } | null
   enums: {
     stage: Record<string, string>
     attribute: Record<string, string>
@@ -35,7 +38,7 @@ interface DigimonContextType {
 
 // Update the default context value to include enums
 const DigimonContext = createContext<DigimonContextType>({
-  data: [],
+  data: [], 
   loading: true,
   error: null,
   formats: null,
@@ -51,10 +54,10 @@ export function DigimonProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [formats, setFormats] = useState<string[][] | null>(null)
-  const [vpetFormats, setVpetFormats] = useState<{ dmc: string[]; penc: string[]; penc_to_dmc: string[] } | null>(null)
+  const [vpetFormats, setVpetFormats] = useState<{ dmc: string[]; penc: string[]; penc_to_dmc: string[]; dmc_to_penc: string[] } | null>(null)
   const [enums, setEnums] = useState<{
-    stages: Record<string, string>
-    attributes: Record<string, string>
+    stage: Record<string, string>
+    attribute: Record<string, string>
   } | null>(null)
 
   useEffect(() => {
