@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Metal Greymon: Alterous Mode",
+    "stage": "perfect",
+    "attribute": "vaccine",
+    "format": 1,
+    "donation_link": "",
+    "type": "character_sprite",
+    "author": "tero0x, grimer",
+    "images": [
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/a_idle_1.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/b_idle_2.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/c_happy.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/d_angry.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/e_training_1.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/f_training_2.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/g_attack_1.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/h_attack_2.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/i_eat_1.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/j_eat_2.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/k_refuse.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/l_sleep_1.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/m_sleep_2.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/n_sick.png",
+      "https://tero0x.github.io/dmc-sprites/images/tero0x/metalgreymon_alterous_mode*0/o_sick_lose.png"
+    ]
+  },
+  {
+    "name": "Agumon",
+    "stage": "child",
+    "attribute": "vaccine",
+    "format": 1,
+    "donation_link": "",
+    "type": "character_sprite",
+    "author": "bandai",
+    "images": ["https://example.com/agumon/idle.png", "https://example.com/agumon/attack.png"]
+  },
+  {
+    "name": "Gabumon",
+    "stage": "child",
+    "attribute": "data",
+    "format": 1,
+    "donation_link": "",
+    "type": "character_sprite",
+    "author": "bandai",
+    "images": ["https://example.com/gabumon/idle.png", "https://example.com/gabumon/attack.png"]
+  },
+  {
+    "name": "Metalgreymon",
+    "stage": "perfect",
+    "attribute": "vaccine",
+    "format": 1,
+    "donation_link": "",
+    "type": "character_sprite",
+    "author": "tero0x",
+    "images": ["https://example.com/metalgreymon/idle.png", "https://example.com/metalgreymon/attack.png"]
+  },
+  {
+    "name": "Devimon",
+    "stage": "adult",
+    "attribute": "virus",
+    "format": 1,
+    "donation_link": "",
+    "type": "character_sprite",
+    "author": "grimer",
+    "images": ["https://example.com/devimon/idle.png", "https://example.com/devimon/attack.png"]
+  }
+]
