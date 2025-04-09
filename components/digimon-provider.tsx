@@ -26,7 +26,7 @@ interface DigimonContextType {
   loading: boolean
   error: string | null
   formats: string[][] | null
-  vpetFormats: { dmc: string[]; penc: string[] } | null
+  vpetFormats: { dmc: string[]; penc: string[]; penc_to_dmc: string[] } | null
   enums: {
     stage: Record<string, string>
     attribute: Record<string, string>
@@ -51,7 +51,7 @@ export function DigimonProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [formats, setFormats] = useState<string[][] | null>(null)
-  const [vpetFormats, setVpetFormats] = useState<{ dmc: string[]; penc: string[] } | null>(null)
+  const [vpetFormats, setVpetFormats] = useState<{ dmc: string[]; penc: string[]; penc_to_dmc: string[] } | null>(null)
   const [enums, setEnums] = useState<{
     stages: Record<string, string>
     attributes: Record<string, string>

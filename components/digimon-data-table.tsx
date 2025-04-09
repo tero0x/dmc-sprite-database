@@ -369,6 +369,9 @@ export function DigimonDataTable() {
     if (item.format === 2 && formatType === "dmc") {
       // Check if penc_to_dmc exists in vpetFormats
       formatNames = vpetFormats["penc_to_dmc"] || []
+    } else if (item.format <= 1 && formatType === "penc") {
+      // Check if dmc_to_penc exists in vpetFormats
+      formatNames = vpetFormats["dmc_to_penc"] || []
     } else {
       formatNames = vpetFormats[formatType] || []
     }
